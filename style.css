@@ -1,0 +1,123 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.section-one {
+  background: rgb(44,55,119);
+  background: linear-gradient(90deg, rgb(16, 48, 107) 20%, rgba(13, 87, 235, 0.884) 90%);
+  height: 100vh;
+}
+.row {
+  height: 100vh;
+}
+.text-heading {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-box > h1 {
+  padding-left: 30px;
+  letter-spacing: 3px;
+  font-size: 3.4rem;
+  color: white;
+  text-shadow: 0px 0px 1px black;
+  font-family: "Ubuntu", sans-serif;
+}
+.text-box {
+  width: 70%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 20px;
+}
+.gen-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.gen-box {
+    font-family: "Ubuntu", sans-serif;
+  width: 450px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #ffffffb6;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.gen-inner-heading {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.438);
+  text-align: center;
+  padding: 8px;
+}
+
+.input1 {
+  display: block;
+  border-radius: 5px ;
+  padding: 8px;
+  margin: 30px auto;
+  width: 90%;
+  border: none;
+}
+.input2 {
+    display: block;
+    margin: auto;
+    width: 90%;
+    
+}
+.label {
+  display: block;
+  margin: 4px auto;
+  width: 90%;
+  font-weight: 700;
+}
+.gen-inner-heading2 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.labelforCheckbox {
+  font-weight: 600;
+}
+.row1-checkbox {
+  text-align: center;
+  padding: 10px;
+  height: 70px;
+  margin: auto;
+}
+.row2-checkbox {
+  text-align: center;
+  margin: auto;
+  height: 50px;
+  padding: 0px ;
+}
+.button-gen{
+    display: block;
+    margin: 20px  auto;
+    padding: 5px 19%  ;
+    border-radius: 5px ;
+    background-color:rgba(13, 87, 235, 0.884);
+    color: white;
+    font-weight: 700;
+    border: none;
+
+}
+.button-gen:hover{
+  color: rgb(228, 235, 238);
+  background-color: rgb(96, 125, 255);
+
+}
+output{
+    width: 95% ;
+    text-align: right;
+}
