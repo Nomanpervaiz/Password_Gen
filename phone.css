@@ -17,6 +17,14 @@
         text-align: center;
         margin: 20px 0px;
       }
+      .hide{
+        left: 85% ;
+      }
+      
+      .show{
+        left: 85% ;
+      }
+      
       
       .labelforCheckbox {
         font-weight: 700;
@@ -60,6 +68,11 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px){  
+  .hide{
+    left: 85% ;
+  }
+  
+  
     .text-box > h1 {
         font-size: 2.5rem;
         display: flex;

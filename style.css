@@ -124,3 +124,16 @@ output{
     width: 95% ;
     text-align: right;
 }
+
+.show{
+  position: relative;
+  top: 62px;
+  left: 395px ;
+}
+
+/* .hide{
+  display: none;
+  position: relative;
+  top: 63px;
+  left: 395px ;
+} */
