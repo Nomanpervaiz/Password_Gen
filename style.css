@@ -15,7 +15,7 @@ body {
 }
 .section-one {
   background: rgb(44,55,119);
-  background: linear-gradient(90deg, rgb(16, 48, 107) 20%, rgba(13, 87, 235, 0.884) 90%);
+  background: linear-gradient(90deg, rgb(13, 39, 87) 20%, rgba(13, 87, 235, 0.884) 90%);
   height: 100vh;
 }
 .row {
@@ -71,6 +71,7 @@ body {
   margin: 30px auto;
   width: 90%;
   border: none;
+  outline: none;
 }
 .input2 {
     display: block;

@@ -42,7 +42,7 @@ function randomPassword() {
       }
     } else {
       document.getElementById("input-text").value =
-        "Atleast select one checkbox :";
+        "Atleast select one checkbox!";
     }
 
     let random = Math.floor(Math.random() * ranPassword.length);
